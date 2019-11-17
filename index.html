@@ -69,10 +69,15 @@
 	        
 			</ul>
 		</nav>
-		<nav>
-		总文章数 2
-		</nav>
-		总字数 <span class="post-count">700</span>
+		<br>
+		<div style="width: 100px; height: 50px; display:inline;text-align: center; padding-top: 15px">
+		文章 2
+		</div>
+		<div style="width: 100px; height: 50px; display:inline;text-align: center; padding-top: 15px">
+		字数 <span class="post-count">189</span>
+		</div>
+		<br>
+		<br>
 		<nav class="header-smart-menu">
     		
     			
@@ -172,7 +177,8 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-API" class="article article-type-post  article-index" itemscope itemprop="blogPost" style="border-top-right-radius:30px; border-bottom-left-radius:30px; border-bottom-right-radius:30px; width: 800px">
+    <article id="post-java基础" class="article article-type-post  article-index" itemscope itemprop="blogPost" 
+		style="border-top-right-radius:30px; border-bottom-left-radius:30px; border-bottom-right-radius:30px; width: 1000px">
 	
   <div class="article-inner" >
     
@@ -180,13 +186,13 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/20/API/">API</a>
+      <a class="article-title" href="/2019/11/17/java%E5%9F%BA%E7%A1%80/">java基础语法总结</a>
     </h1>
   
 
         
-        <a href="/2019/10/20/API/" class="archive-article-date">
-  	<time datetime="2019-10-20T04:13:13.744Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-20</time>
+        <a href="/2019/11/17/java%E5%9F%BA%E7%A1%80/" class="archive-article-date">
+  	<time datetime="2019-11-16T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-17</time>
 </a>
 
 
@@ -197,7 +203,7 @@
 		  <span class="post-meta-item-icon">
 			<i class="fa fa-keyboard-o"></i>
 			<span class="post-meta-item-text">  字数统计: </span>
-			<span class="post-count">627字</span>
+			<span class="post-count">116字</span>
 		  </span>
 		</span>
 
@@ -206,17 +212,16 @@
 		  <span class="post-meta-item-icon">
 			<i class="fa fa-hourglass-half"></i>
 			<span class="post-meta-item-text">  阅读时长: </span>
-			<span class="post-count">3分</span>
+			<span class="post-count">1分</span>
 		  </span>
 		</span>
 		</div>
     
     <div class="article-entry" itemprop="articleBody" >
       
-        <h1 id="API"><a href="#API" class="headerlink" title="API"></a>API</h1><p>###商品列表</p>
-        
-          <a class="article-more-a" href="/2019/10/20/API/#more">more >></a>
-        
+        <h1 id="final关键字修饰变量总结"><a href="#final关键字修饰变量总结" class="headerlink" title="final关键字修饰变量总结"></a>final关键字修饰变量总结</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@org</span>.junit.Test</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">fianlKeyWordTest</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Dog dog = <span class="keyword">new</span> Dog(<span class="string">"旺财"</span>);</span><br><span class="line">        Dog dog1 = <span class="keyword">new</span> Dog(<span class="string">"阿狗"</span>);</span><br><span class="line">        dog.setName(<span class="string">"来福"</span>);</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         *  final 修饰的变量 可以改变该变量地址所指向的对象里面的内容</span></span><br><span class="line"><span class="comment">         *  但无法改变该变量所指向的地址，即一旦将该变量指向某一地址后就再无法更改它所指向的地址</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"><span class="comment">//        dog = dog1;  ×</span></span><br><span class="line">        System.out.println(dog); <span class="comment">// Dog&#123;name='来福', age=null&#125;</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+
       
 	  
 	  <!--版权声明 -->
@@ -229,7 +234,29 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">java基础</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/JavaSE//" class="article-tag-list-link color2">JavaSE</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -260,7 +287,8 @@
 
 
   
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost" style="border-top-right-radius:30px; border-bottom-left-radius:30px; border-bottom-right-radius:30px; width: 800px">
+    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost" 
+		style="border-top-right-radius:30px; border-bottom-left-radius:30px; border-bottom-right-radius:30px; width: 1000px">
 	
   <div class="article-inner" >
     
@@ -466,6 +494,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">指南</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">java基础</a>
               </li>
             
             <div class="clearfix"></div>
